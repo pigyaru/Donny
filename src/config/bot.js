@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Custom Status", // required by Discord API, not shown in the client
         state: "going hog wild",     // this is what people actually see
-        type: 3,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#ffb3de",
+      secondary: "#82605c",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
